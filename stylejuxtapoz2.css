@@ -7,35 +7,48 @@
 
 }
 
-.manipulator#box1 {
+
+.manipulator#small {
         right:300px;
-        background-image:orange;        
+        background-color:#2F4F4F;
+        border:solid white 2px;            
 }
 
-.manipulator#box2 {
+.manipulator#medium {
         right:200px;
-        background-image:green;        
+        background-color:#2F4F4F;
+        border:solid white 2px;            
 }
 
-.manipulator#box3 {
+.manipulator#large {
         right:100px;
-        background-image:blue;        
+        background-color:#2F4F4F;
+        border:solid white 2px;            
 }
 
-.manipulator#box4 {
+.manipulator#xlarge {
         right:0;
-        background-image:yellow;        
+        background-color:#2F4F4F;
+        border:solid white 2px;
+         
 }
 
-body.box1 {
+
+
+body.small {
         width:320px !important;
+         background-image:url(extensions final part 2/francis bacon.jpg);
 }
-body.box2 {
-        width:320px !important;
+body.medium {
+        width:640px !important;
+          background-image:url(extensions final part 2/guernica.jpg);
 }
-body.box3 {
-        width:320px !important;
+body.large {
+        width:960px !important;
+          background-image:;url(extensions final part 2/Raft_of_the_Medusa.jpg);
+        
 }
-body.box4 {
-        width:320px !important;
+body.xlarge {
+        width:100% !important;
+          background-image:url();
 }
