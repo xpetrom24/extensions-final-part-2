@@ -1,0 +1,41 @@
+.manipulator {
+
+        width:100px;
+        height:100px;
+        position:fixed;
+        bottom:0;
+
+}
+
+.manipulator#box1 {
+        right:300px;
+        background-image:orange;        
+}
+
+.manipulator#box2 {
+        right:200px;
+        background-image:green;        
+}
+
+.manipulator#box3 {
+        right:100px;
+        background-image:blue;        
+}
+
+.manipulator#box4 {
+        right:0;
+        background-image:yellow;        
+}
+
+body.box1 {
+        width:320px !important;
+}
+body.box2 {
+        width:320px !important;
+}
+body.box3 {
+        width:320px !important;
+}
+body.box4 {
+        width:320px !important;
+}
