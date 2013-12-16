@@ -36,7 +36,8 @@
 
 body.small {
         width:320px !important;
-        background-color:#FFEFD5;
+        background-image:url(img/francisbacon.jpg);
+        background-color:#8B2500;
 }
 body.medium {
         width:640px !important;
