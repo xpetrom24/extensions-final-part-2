@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	var buttons = [,"small","medium","large","xlarge"];
+	var buttons = ["small","medium","large","xlarge"];
 
 			$.each(buttons, function(index, element){
 					$("<div class='manipulator' id='"+element+"' />").appendTo("body");
