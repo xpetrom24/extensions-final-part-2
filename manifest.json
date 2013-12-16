@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "Juxtapoz 2",
+  "name": "Juxtapoz2",
   "description": "This extension adds buttons that change the background image of juxtapoz ",
   "version": "0.0.1",
 "content_scripts": [
