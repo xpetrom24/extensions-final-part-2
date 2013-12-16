@@ -36,8 +36,7 @@
 
 body.small {
         width:320px !important;
-        
-        background-image:url('i.huffpost.com/gen/964776/thumbs/o-CATS-KILL-BILLIONS-facebook.jpg');
+        background-color:#8B2500;
 }
 body.medium {
         width:640px !important;
