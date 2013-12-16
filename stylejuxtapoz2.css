@@ -1,4 +1,4 @@
-.manipulator {
+.boxes {
 
         width:100px;
         height:100px;
@@ -8,25 +8,25 @@
 }
 
 
-.manipulator#small {
+.boxes#small {
         right:300px;
         background-color:#2F4F4F;
         border:solid white 2px;            
 }
 
-.manipulator#medium {
+.boxes#medium {
         right:200px;
         background-color:#2F4F4F;
         border:solid white 2px;            
 }
 
-.manipulator#large {
+.boxes#large {
         right:100px;
         background-color:#2F4F4F;
         border:solid white 2px;            
 }
 
-.manipulator#xlarge {
+.boxes#xlarge {
         right:0;
         background-color:#2F4F4F;
         border:solid white 2px;
