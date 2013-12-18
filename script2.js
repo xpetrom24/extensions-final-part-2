@@ -1,7 +1,8 @@
 $(document).ready(function(){
 	var buttons = ["small","medium","large","xlarge"];
 
-			$.each(buttons, function(index, element){
+
+					$.each(buttons, function(index, element){
 					$("<div class='imageboxes' id='"+element+"' />").appendTo("body");
 			});
 
@@ -16,10 +17,14 @@ $(document).ready(function(){
 									$("body").removeClass(element);
 							});
 							$("body").addClass(currentID);
+							
 
 					});
 
 			});
 
 			console.log("done");
+			
+					
+					
 })
