@@ -2,11 +2,11 @@ $(document).ready(function(){
 	var buttons = ["small","medium","large","xlarge"];
 
 			$.each(buttons, function(index, element){
-					$("<div class='manipulator' id='"+element+"' />").appendTo("body");
+					$("<div class='imageboxes' id='"+element+"' />").appendTo("body");
 			});
 
 
-			$(".manipulator").each(function(index, element){
+			$(".imageboxes").each(function(index, element){
 					var currentID = $(element).attr("id");
 					var currentIDselector = "#" + currentID;
 					$(currentIDselector).click(function(){
@@ -22,4 +22,4 @@ $(document).ready(function(){
 			});
 
 			console.log("done");
-}
+})

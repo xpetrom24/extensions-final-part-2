@@ -1,55 +1,56 @@
-.manipulator {
+.imageboxes {
 
         width:100px;
         height:100px;
         position:fixed;
         bottom:0;
+        z-index:1000;
 
 }
 
 
-.manipulator #small {
-        right:300px;
+.imageboxes#small {
+        right:900px;
         background-color:#2F4F4F;
         border:solid white 2px;            
 }
 
-.manipulator #medium {
-        right:200px;
+.imageboxes#medium {
+        right:800px;
         background-color:#2F4F4F;
         border:solid white 2px;            
 }
 
-.manipulator #large {
-        right:100px;
+.imageboxes#large {
+        right:700px;
         background-color:#2F4F4F;
         border:solid white 2px;            
 }
 
-.manipulator #xlarge {
-        right:0;
+.imageboxes#xlarge {
+        right:600px;
         background-color:#2F4F4F;
         border:solid white 2px;
          
 }
 
 
-body.small {
+body.small .MainContent {
         width:320px !important;
         background-color:#8B2500;
         background-image:url(img/francisbacon.jpg);
 }
-body.medium {
+body.medium .MainContent {
         width:640px !important;
         background-color:#808A87;
         background-image: url(img/Raft_of_the_Medusa.jpg);
           }
-body.large {
+body.large .MainContent {
         width:960px !important;
         background-color:#C1CDC1;
         background-image: url(img/basqiatportraits.jpg);
 }
-body.xlarge {
+body.xlarge .MainContent {
         width:100% !important;
         background-color:#CDCDC1;
         background-image: url(img/guernica.jpg);

@@ -1,0 +1,56 @@
+.menu .item-101, .menu .item-120, .menu .item-121, .menu .item-122, .menu .item-123, .menu .item-271, .menu .item-127, .menu .item-129, .menu .item-128{
+	display:none !important;
+};
+
+.hidden {
+	display:none;
+};
+
+
+.item-125 a {
+	text-align:left;
+}
+
+#Header .Menu #newMenu {
+	position:absolute;
+	top:40px;
+	left:0;
+	background-color:#8B7E66;
+	z-index:10;
+	height:auto;
+	width: 300px;
+	
+	font-family: Helvetica, sans-serif;
+	font-size: 9px;
+}
+
+#newMenu, #Header .Menu #newMenu li {
+
+	text-align:left;
+	float:none;
+	display:block;
+	color:whitesmoke;
+	font-family: Helvetica, sans-serif;
+	font-size: 10px;
+	padding:none;
+}
+
+#cssmenu {
+	display:none !important;
+
+}
+
+ #cmn_ad_tag_head #fwbanner {
+	display:none !important;
+	
+}
+
+#Header .Menu ul {
+height: 28px; 
+
+}
+
+#Header .Menu ul li a:hover  {
+color:white !important;
+}
+

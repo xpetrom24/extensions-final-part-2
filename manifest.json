@@ -1,25 +1,21 @@
 {
   "name": "Juxtapoz2",
   "description": "This extension adds buttons that change the background image of juxtapoz ",
-  "version": "0.0.1",
+  "version": "0.0.2",
 "content_scripts": [
     {
       "matches": ["http://*.juxtapoz.com/*"],
-      "css": ["stylejuxtapoz2.css"],
-      "js": ["jquery.js", "script2.js"]      
-    }
-    
-    "manifest_version": 2,
+      "css": ["stylejuxtapoz2.css","stylejuxtapoz.css"],
+      "js": ["jquery.js", "script2.js","script.js"]      
+    } 
   ],
+   "manifest_version": 2,
    "web_accessible_resources": [ 
-   
-   							"img/basquiatportraits.jpg",
-   							"img/Raft_of_the_Medusa.jpg",
-   							"img/francisbacon.jpg",
-   							"img/guernica.jpg"
-   
-   
-   
+   	"img/*",
+	"img/basquiatportraits.jpg",
+	"img/Raft_of_the_Medusa.jpg",
+	"img/francisbacon.jpg",
+	"img/guernica.jpg"
    
    ]
 
