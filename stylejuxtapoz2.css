@@ -28,28 +28,42 @@
 
 
 .imageboxes#small {
-        right:900px;
-        background-color:#2F4F4F;
-        border:solid white 2px;            
+        right:340px;
+        background-color:#CD2626;
+        border-radius: 50px;
+        margin: 10px;
+        opacity:0.6;
+  		filter:alpha(opacity=60);
+            
 }
 
 .imageboxes#medium {
-        right:800px;
-        background-color:#2F4F4F;
-        border:solid white 2px;            
+        right:230px;
+        background-color:#CD2626;
+        border-radius: 50px;
+        margin: 10px;
+        opacity:0.6;
+  		filter:alpha(opacity=60);
+           
 }
 
 .imageboxes#large {
-        right:700px;
-        background-color:#2F4F4F;
-        border:solid white 2px;            
+        right:120px;
+        background-color:#CD2626;
+        border-radius: 50px;
+        margin: 10px;
+        opacity:0.6;
+  		filter:alpha(opacity=60);
+           
 }
 
 .imageboxes#xlarge {
-        right:600px;
-        background-color:#2F4F4F;
-        border:solid white 2px;
-         
+        right:10px;
+        background-color:#CD2626;
+        border-radius: 50px;
+        margin: 10px;
+        opacity:0.6;
+  		filter:alpha(opacity=60);
 }
 
 
@@ -61,15 +75,15 @@ body.small  {
 body.medium  {
         width:640px !important;
         background-color:#808A87;
-        background-image: url(chrome-extension://__MSG_@@extension_id__/img/Raft_of_the_Medusa.jpg);
+        background-image: url(chrome-extension://__MSG_@@extension_id__/img/Raft_of_the_Medusa.jpg) !important;
           }
 body.large {
         width:960px !important;
         background-color:#C1CDC1;
-        background-image: url(chrome-extension://__MSG_@@extension_id__/img/basqiatportraits.jpg);
+        background-image: url(chrome-extension://__MSG_@@extension_id__/img/LW399.jpg) !important;
 }
 body.xlarge  {
         width:100% !important;
         background-color:#CDCDC1;
-        background-image: url(chrome-extension://__MSG_@@extension_id__/img/guernica.jpg);
+        background-image: url(chrome-extension://__MSG_@@extension_id__/img/guernica.jpg) !important;
 }
